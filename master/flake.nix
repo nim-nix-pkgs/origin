@@ -11,7 +11,6 @@
   inputs.src-origin-master.ref   = "refs/heads/master";
   inputs.src-origin-master.owner = "mfiano";
   inputs.src-origin-master.repo  = "origin.nim";
-  inputs.src-origin-master.dir   = "";
   inputs.src-origin-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
